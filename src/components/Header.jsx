@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
+import mlaPhoto from '../assets/ganiga_ravi_mla.png';
 import { 
   Building2, 
   MapPin, 
@@ -74,7 +75,7 @@ export const Header = ({ activeTab, setActiveTab }) => {
           <div className="relative">
             <div className="w-13 h-13 rounded-full border-2 border-[#D4AF37] p-0.5 bg-[#FAF7F0] shadow-md overflow-hidden flex-shrink-0">
               <img 
-                src="ganiga_ravi_mla.png" 
+                src={mlaPhoto} 
                 alt="Ravikumar Gowda (Ganiga Ravi)"
                 className="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-300"
               />

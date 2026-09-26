@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { CONSTITUENCY_INFO, HOBLIS_AND_CITY } from '../data/constituencyData';
+import mlaPhoto from '../assets/ganiga_ravi_mla.png';
 import { 
   Building2, 
   MapPin, 
@@ -89,7 +90,7 @@ export const Home = ({ setActiveTab, works, onSelectLocation }) => {
               {/* Gold Ornament Ring */}
               <div className="w-44 h-44 sm:w-48 sm:h-48 rounded-full border-4 border-[#D4AF37] p-1 bg-gradient-to-tr from-[#A67C3D] to-[#FAF7F0] shadow-2xl flex items-center justify-center">
                 <img 
-                  src="ganiga_ravi_mla.png" 
+                  src={mlaPhoto} 
                   alt="Ravikumar Gowda (Ganiga Ravi), MLA"
                   className="w-full h-full object-cover rounded-full shadow-inner"
                 />

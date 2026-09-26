@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { CONSTITUENCY_INFO } from '../data/constituencyData';
+import mlaPhoto from '../assets/ganiga_ravi_mla.png';
 import { MapPin, Phone, Mail, MessageSquare, ShieldCheck, Heart } from 'lucide-react';
 
 export const Footer = ({ setActiveTab }) => {
@@ -16,7 +17,7 @@ export const Footer = ({ setActiveTab }) => {
             <div className="flex items-center space-x-3 mb-3">
               <div className="w-10 h-10 rounded-full border border-[#D4AF37] p-0.5 bg-white overflow-hidden">
                 <img 
-                  src="ganiga_ravi_mla.png" 
+                  src={mlaPhoto} 
                   alt="Ganiga Ravi" 
                   className="w-full h-full object-cover rounded-full"
                 />
