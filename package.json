@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kptejasgowda-gif.github.io/mandya-abhivruddi-vedike",
+  "homepage": "https://kptejasgowda-gif.github.io/mandya-abhivruddi-vedhike",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
