@@ -89,7 +89,7 @@ export const Home = ({ setActiveTab, works, onSelectLocation }) => {
               {/* Gold Ornament Ring */}
               <div className="w-44 h-44 sm:w-48 sm:h-48 rounded-full border-4 border-[#D4AF37] p-1 bg-gradient-to-tr from-[#A67C3D] to-[#FAF7F0] shadow-2xl flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400" 
+                  src="ganiga_ravi_mla.png" 
                   alt="Ravikumar Gowda (Ganiga Ravi), MLA"
                   className="w-full h-full object-cover rounded-full shadow-inner"
                 />

@@ -74,7 +74,7 @@ export const Header = ({ activeTab, setActiveTab }) => {
           <div className="relative">
             <div className="w-13 h-13 rounded-full border-2 border-[#D4AF37] p-0.5 bg-[#FAF7F0] shadow-md overflow-hidden flex-shrink-0">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200" 
+                src="ganiga_ravi_mla.png" 
                 alt="Ravikumar Gowda (Ganiga Ravi)"
                 className="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-300"
               />
