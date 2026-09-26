@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: './', // Using relative base path ensures smooth loading on GitHub Pages
+  base: '/mandya-abhivruddi-vedhike/', // Subpath matching repository name
 })
